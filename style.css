@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #08ea31;
   display: flex;
@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-.todo-container {
+.container {
   background: rgb(142, 112, 189);
   padding: 30px;
   border-radius: 12px;
@@ -81,4 +81,52 @@ li.completed {
 
 .delete-btn:hover {
   background: #e60000;
-}
+} */
+
+  body{
+      background-color: rgb(136, 136, 224);
+      justify-items: center;
+     margin: 200px;
+    }
+    .container{
+      background-color: blueviolet;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: black;
+      width: 400px;
+    }
+    button{
+      color:black;
+      border-radius: 10px;
+      background-color: aqua;
+      cursor: pointer;
+      padding: 1%;
+      margin-left: 10px;
+      width: 50px;
+    }
+    button:hover{
+      background-color: rgb(17, 213, 17);
+      transition: 0.5s;
+    }
+    .delete-btn{
+    color: rgb(4, 4, 4);
+    background-color: rgb(232, 154, 202);
+    width: 65px;
+    }
+    .delete-btn:hover{
+      background-color: red;
+      transition: 0.5s;
+    }
+    h2{
+      text-align: center;
+    }
+    .input-section{
+      margin-bottom: 20px;
+      justify-items: center;
+    }
+    input[type="text"]{
+      outline: none;
+      padding: 5px;
+      border-radius: 5px;
+      
+    }
